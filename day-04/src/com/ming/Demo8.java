@@ -11,12 +11,25 @@ public class Demo8 {
         for(int i = 0; i < number01.length; i++){
             number01[i] = random.nextInt(100) + 1;
         }
-        // 对数组进行判断
-        for(int i = 0; i < number01.length; i++){
-            for(int j = i; i < number01.length; j++){
-                // 判断奇数，偶数，奇数左边，偶数右边
-                if(number01[])
+        // 定义一个空数组
+        int[] number03 = new int[10];
+        // 定义俩个指正
+        int left = 0;
+        int right = 9;
+        // 进行判断
+        for(int i = 0; i< number03.length; i++){
+            if(number03[i] %2 == 0){
+                // 这是偶数
+                 number03[left] = number01[i];
+                left++;
+            }else{
+                number03[right] = number01[i];
+                right--;
             }
+        }
+        // 打印出以后的
+        for(int i = 0; i < number03.length; i++){
+            System.out.println(number03[i]);
         }
     }
 }
