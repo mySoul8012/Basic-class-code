@@ -21,5 +21,22 @@ public class Demo2 {
             System.out.println(worker.getSalary());
         }
 
+        // 在索引为1的插入一个集合
+        worker = new Worker();
+        worker.setName("张柏芝");
+        worker.setSalary(3300);
+        worker.setAge(35);
+
+        workerList.add(1, worker);
+
+        workerList.remove(3);
+
+        // 打印出所有内容
+        for(int i = 0; i < workerList.size(); i++){
+            System.out.println(workerList.get(i).getName());
+            System.out.println(workerList.get(i).getSalary());
+            System.out.println(workerList.get(i).getAge());
+        }
+
     }
 }

@@ -31,4 +31,8 @@ public class Worker {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public void worker(){
+        System.out.println(this.getName() + " 正在工作");
+    }
 }
