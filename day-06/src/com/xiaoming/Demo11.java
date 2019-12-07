@@ -11,8 +11,4 @@ public class Demo11 {
         }
         System.out.print(sum);
     }
-
-
-
-
 }
