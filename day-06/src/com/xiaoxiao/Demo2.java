@@ -1,4 +1,4 @@
-package com.ming.demo2;
+package com.xiaoxiao;
 
 import java.util.Random;
 
@@ -15,8 +15,11 @@ public class Demo2 {
         int sum = 0;
         for(int i = 0; i < numberInt.length; i++){
             // 判断是否是奇数
-            if()
+            if(i % 2 != 0){
+                sum += numberInt[i];
+            }
         }
+        System.out.println(sum);
 
     }
 
