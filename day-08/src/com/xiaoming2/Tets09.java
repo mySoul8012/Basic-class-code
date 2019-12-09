@@ -2,7 +2,7 @@ package com.xiaoming2;
 
 public class Tets09 {
     public static void main(String[] args){
-        // 统计一文本中java出现的次数
+        // 统计一文中Java出现的次数
         String text = "Java语言是面向对象的，Java语言是健壮的，Java语言是安全的，Java是高性能的，Java语言是跨平台的";
         // 进行文本的统计
         // 进行java计数
